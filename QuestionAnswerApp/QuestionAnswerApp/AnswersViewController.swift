@@ -20,15 +20,67 @@ class AnswersViewController: UIViewController {
             self.questionLabel.text = answer.questionString
         }
     }
-
+    
     @IBOutlet weak var questionLabel: UILabel!
-    
     @IBOutlet weak var answerButtonOne: UIButton!
-    
     @IBOutlet weak var answerButtonTwo: UIButton!
-    
     @IBOutlet weak var answerButtonThree: UIButton!
-    
     @IBOutlet weak var answerButtonFour: UIButton!
+    
+    @IBAction func buttonOneTapped(sender: UIButton) {
+        
+        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .Default) {
+                                            (action) in
+        }
+        
+        alert.addAction(cancelAction)
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func buttonTwoTapped(sender: UIButton) {
+        
+        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .Default) {
+                                            (action) in
+        }
+        
+        alert.addAction(cancelAction)
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func buttonThreeTapped(sender: UIButton) {
+        
+        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .Default) {
+                                            (action) in
+        }
+        
+        alert.addAction(cancelAction)
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func buttonFourTapped(sender: AnyObject) {
+        
+        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .Default) {
+                                            (action) in
+        }
+        
+        alert.addAction(cancelAction)
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
     
 }

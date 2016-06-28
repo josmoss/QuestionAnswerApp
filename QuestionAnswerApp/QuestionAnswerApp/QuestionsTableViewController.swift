@@ -19,9 +19,6 @@ class QuestionsTableViewController: UITableViewController {
         let quest = Question()
         quest.questionString = "What color is the sky?"
         quest.answerString = "The sky is blue."
-        quest.answerString = "The sky is red."
-        quest.answerString = "The sky is green."
-        quest.answerString = "The sky is purple."
         quest.imageNameString = "question"
         
         self.questionsArray.append(quest)

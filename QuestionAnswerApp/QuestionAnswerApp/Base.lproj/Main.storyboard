@@ -84,20 +84,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IF5-D0-eiN">
-                                <rect key="frame" x="277" y="200" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="274" y="200" width="52" height="30"/>
+                                <state key="normal" title="Button1"/>
+                                <connections>
+                                    <action selector="buttonOneTapped:" destination="hza-3b-IkX" eventType="touchUpInside" id="LQA-NJ-0ub"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13g-yS-hX8">
-                                <rect key="frame" x="277" y="260" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="273" y="260" width="55" height="30"/>
+                                <state key="normal" title="Button2"/>
+                                <connections>
+                                    <action selector="buttonTwoTapped:" destination="hza-3b-IkX" eventType="touchUpInside" id="FT1-Sr-05m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13g-4I-6qB">
-                                <rect key="frame" x="277" y="320" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="273" y="320" width="55" height="30"/>
+                                <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="buttonThreeTapped:" destination="hza-3b-IkX" eventType="touchUpInside" id="eh7-MB-6s2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6v-ix-slO">
-                                <rect key="frame" x="277" y="380" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="272" y="380" width="56" height="30"/>
+                                <state key="normal" title="Button4"/>
+                                <connections>
+                                    <action selector="buttonFourTapped:" destination="hza-3b-IkX" eventType="touchUpInside" id="rKC-Kx-J3e"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.87058823529999996" alpha="0.10382543103448276" colorSpace="calibratedRGB"/>
