@@ -18,6 +18,7 @@ class AnswersViewController: UIViewController {
         if let answer = self.theAnswer {
             
             self.questionLabel.text = answer.questionString
+
         }
     }
     
@@ -43,7 +44,7 @@ class AnswersViewController: UIViewController {
     
     @IBAction func buttonTwoTapped(sender: UIButton) {
         
-        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Try Again!", message: "", preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Cancel",
                                          style: .Default) {
@@ -57,7 +58,7 @@ class AnswersViewController: UIViewController {
     
     @IBAction func buttonThreeTapped(sender: UIButton) {
         
-        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Try Again!", message: "", preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Cancel",
                                          style: .Default) {
@@ -71,7 +72,7 @@ class AnswersViewController: UIViewController {
     
     @IBAction func buttonFourTapped(sender: AnyObject) {
         
-        let alert = UIAlertController(title: "Correct!", message: "", preferredStyle: .Alert)
+        let alert = UIAlertController(title: "Try Again!", message: "", preferredStyle: .Alert)
         
         let cancelAction = UIAlertAction(title: "Cancel",
                                          style: .Default) {

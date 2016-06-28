@@ -16,12 +16,25 @@ class QuestionsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let quest = Question()
-        quest.questionString = "What color is the sky?"
-        quest.answerString = "The sky is blue."
-        quest.imageNameString = "question"
+        seedArray()
         
-        self.questionsArray.append(quest)
+    }
+    
+    func seedArray() {
+        
+        let quest1 = Question()
+        quest1.questionString = "What color is the sky?"
+        quest1.answerString = "Blue"
+        quest1.imageNameString = "question"
+        
+        self.questionsArray.append(quest1)
+        
+        let quest2 = Question()
+        quest2.questionString = "What shape is a ball?"
+        quest2.answerString = "Round"
+        quest2.imageNameString = "question"
+        
+        self.questionsArray.append(quest2)
         
     }
 
